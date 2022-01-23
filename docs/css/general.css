@@ -1,46 +1,60 @@
 /*General*/
 * {
     font-family: 'Dongle', sans-serif;
+    color: #fff;
+}
+body {
+    background: #000;
 }
 h1 {
     text-align: center;
+    font-size: 9em;
 }
 #divGranFather {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background: #444;
-    margin: 40px 50px;
+    margin: 40px 80px;
+    background: #222;
 }
 /*Form*/
 .formMaster {
-    min-width: 350px;
-    max-width: 650px;
+    min-width: 400px;
+    padding: 35px;
     flex: 1;
     text-align: center;
-    padding: 30px;
 }
 .form__input {
     width: 100%;
-    margin: 10px 0;
-    padding: 7px;
+    margin: 15px 0;
+    padding: 9px;
+    border: none;
+    border-bottom: 2px solid #48e;
+    background: transparent;
+    font-size: 3em;
+}
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #333);
+    outline: none;
+    border-bottom: 2px solid #4ce;
 }
 .formMaster textarea {
     min-height: 150px;
+    resize: none;
 }
 /*Image*/
 .img__container {
     display: flex;
     min-width: 300px;
-    max-width: 350px;
-    padding: 25px;
+    max-width: 450px;
+    padding: 35px;
 }
 .img__container-jr {
     background: #fff;
     border-radius: 50%;
     text-align: center;
-    padding: 25px;
+    padding: 40px;
     margin: auto;
 }
 .img__container-jr img {
